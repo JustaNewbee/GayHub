@@ -65,7 +65,7 @@ exports.cssLoaders = function (options) {
                options: {
                  // it need a absolute path
                  resources: [
-                    resolveResouce('global.scss'),
+                    resolveResouce('variable.scss'),
                     resolveResouce('mixin.scss')
                     ]
                }
